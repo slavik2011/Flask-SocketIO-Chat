@@ -24,4 +24,4 @@ RUN pip install --no-cache-dir -r requirements.txt --break-system-packages
 COPY . .
 
 # Command to run your application
-CMD python3 main.py $PORT
+CMD python3 chat.py $PORT
